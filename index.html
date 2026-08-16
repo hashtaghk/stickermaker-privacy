@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Sticker Maker</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1b1f; --muted: #5f5d62;
+    --accent: #d77e09; --line: #e3e1e4; --code-bg: #f5f4f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212; --fg: #e6e1e5; --muted: #b0aeb3;
+      --accent: #e8a33d; --line: #2c2b2f; --code-bg: #1e1e1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  main { max-width: 46rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .4rem; }
+  h2 { font-size: 1.2rem; margin: 2.4rem 0 .6rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  .updated { color: var(--muted); margin: 0 0 1.6rem; font-size: .95rem; }
+  .meta { background: var(--code-bg); border-radius: 10px; padding: .9rem 1.1rem; font-size: .93rem; margin-bottom: 2rem; }
+  .meta div { margin: .2rem 0; }
+  code { background: var(--code-bg); padding: .12em .4em; border-radius: 5px; font-size: .88em; word-break: break-all; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; display: block; overflow-x: auto; }
+  th, td { border: 1px solid var(--line); padding: .55rem .7rem; text-align: left; font-size: .95rem; vertical-align: top; }
+  th { background: var(--code-bg); }
+  strong { font-weight: 650; }
+  ul { padding-left: 1.3rem; }
+  li { margin: .35rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy — Sticker Maker</h1>
+  <p class="updated">Last updated: 16 August 2026</p>
+
+  <div class="meta">
+    <div><strong>App package:</strong> <code>hk.android.free.truesticker.stickermakerforwhatsapp.stickercreater</code></div>
+    <div><strong>Publisher:</strong> HashtagHK</div>
+    <div><strong>Contact:</strong> <a href="mailto:admin@hashtaghk.com">admin@hashtaghk.com</a></div>
+  </div>
+
+  <p>This policy explains what the Sticker Maker app (“the app”, “we”) collects, why, and what
+  choices you have.</p>
+
+  <h2>1. Photos, camera and the stickers you make</h2>
+  <p>To make a sticker you choose a photo from your device or take one with the camera. The app
+  requests these permissions for that purpose only:</p>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr><td><code>READ_MEDIA_IMAGES</code> (Android 13+)</td><td>Show your gallery so you can pick a photo</td></tr>
+    <tr><td><code>READ_EXTERNAL_STORAGE</code> (Android 12 and below)</td><td>Same, on older Android versions</td></tr>
+    <tr><td><code>CAMERA</code></td><td>Take a new photo, only when you open the camera screen</td></tr>
+    <tr><td><code>INTERNET</code></td><td>Ads, crash reporting, analytics, and cloud backup</td></tr>
+  </table>
+  <p><strong>Editing happens on your device.</strong> Cropping, cutting out, adding text and the
+  automatic background removal all run locally. The background-removal model runs on-device
+  through Google Play Services and does not send your photo to a server.</p>
+  <p><strong>Finished stickers are stored on your device</strong>, in the app’s private storage.</p>
+
+  <h2>2. Cloud backup — the one time your images leave the device</h2>
+  <p>If you use <strong>Export / Backup</strong>, the app uploads your sticker images to Google
+  Firebase Storage so you can restore them later or move them to another phone. They are stored in
+  a folder linked to your signed-in account.</p>
+  <p>This only happens when you choose to export. If you never use Export/Backup, your images are
+  not uploaded. <strong>Restore</strong> downloads those files back to your device.</p>
+
+  <h2>3. Signing in</h2>
+  <p>If you sign in with Google, we receive your <strong>email address</strong>. It is stored on
+  your device and used to identify your backup folder so you can restore your own stickers. We do
+  not use it for marketing.</p>
+
+  <h2>4. Sharing to WhatsApp and Telegram</h2>
+  <p>When you add a sticker pack to WhatsApp or Telegram, the app hands those stickers to that app
+  at your request. Once shared, the receiving app’s own privacy policy applies.</p>
+
+  <h2>5. Analytics and crash reporting</h2>
+  <p>We use <strong>Google Firebase Analytics</strong> to understand which features are used — for
+  example, that a sticker was created or a pack was exported. These are counts of actions, not the
+  content of your photos or stickers.</p>
+  <p>We use <strong>Firebase Crashlytics</strong> to receive crash reports so we can fix bugs. A
+  crash report includes the error, the device model, and the Android version. It does not include
+  your photos.</p>
+
+  <h2>6. Advertising</h2>
+  <p>The app shows ads through <strong>Google AdMob</strong>. AdMob may use your device’s
+  <strong>advertising ID</strong> to show relevant ads and to limit repeated ads. You can reset or
+  delete this ID at any time in <strong>Settings → Privacy → Ads</strong> on your device, and you
+  can opt out of ad personalisation there.</p>
+
+  <h2>7. Third-party services</h2>
+  <ul>
+    <li>Google Firebase — Analytics, Crashlytics, Storage:
+      <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+    <li>Google AdMob:
+      <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a></li>
+    <li>Google Sign-In and Play Services:
+      <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  </ul>
+
+  <h2>8. Children</h2>
+  <p>The app is not directed at children under 13, and we do not knowingly collect personal
+  information from them. If you believe a child has provided us personal information, contact us
+  and we will delete it.</p>
+
+  <h2>9. Keeping and deleting your data</h2>
+  <ul>
+    <li><strong>On your device:</strong> uninstalling the app removes the stickers and settings it
+      stored locally.</li>
+    <li><strong>In the cloud:</strong> to delete backups you exported, email
+      <a href="mailto:admin@hashtaghk.com">admin@hashtaghk.com</a> from the address you signed in
+      with and ask for deletion. We will delete the backup folder for that account.</li>
+    <li>Analytics and crash data are retained according to Google Firebase’s standard retention
+      periods.</li>
+  </ul>
+
+  <h2>10. Security</h2>
+  <p>Data sent to Firebase travels over encrypted connections (HTTPS/TLS). Backups are stored in a
+  folder scoped to your account. No system is perfectly secure, and we cannot guarantee absolute
+  security.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If this policy changes we will update this page and the “Last updated” date above.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions or data-deletion requests:
+    <a href="mailto:admin@hashtaghk.com">admin@hashtaghk.com</a></p>
+
+  <footer>Sticker Maker · HashtagHK</footer>
+</main>
+</body>
+</html>
